@@ -1,0 +1,225 @@
+body{
+    margin:0;
+    min-height:100vh;
+    display:flex;
+    flex-direction: column;
+    background:radial-gradient(circle at top right,
+    rgba(60,140,180,0.25),
+    transparent 45%),
+    radial-gradient(
+        circle at  bottom left,
+        rgba(20,90,130,0.25),
+        transparent 50%),
+        linear-gradient(
+            180deg,#071824 0%,#0b2a3d 45%,
+            #06151f 100%
+        );
+    box-shadow: 3px 3px 3px 2px goldenrod;
+    border:5px solid goldenrod
+}
+.container{
+    border-radius:5px;
+    width:auto;
+    height: auto;
+}
+.head{
+    display: flex;
+    align-items: center;
+    gap:30px;
+    padding:10px;
+    border-bottom: 5px rgb(2, 2, 77);
+}
+.head a{
+    text-decoration: none;
+    color:whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.head a:hover{
+    font-size: 20px;
+    color:#c9a227
+    
+}
+.head h2{
+    color:#c9a227;
+}
+h2{
+    color:rgb(231, 229, 225);
+    font-style: oblique;
+}
+.last1{
+  margin-left: auto;
+  margin-right: 20px;
+  font-size: 25px;
+}
+.home1{
+    background-color: rgb(3, 3, 41);
+    position: relative;
+}
+.role{
+    width:550px;
+    height:250px;
+    background:linear-gradient(to bottom right ,rgba(79, 139, 179, 0.28),rgba(30, 131, 213, 0.22));
+    background-blend-mode: soft-light;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding:10px;border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-style: none;
+    position: relative;
+    
+}
+.role h2{
+    width:200px;
+    font-style: oblique;
+    line-height: 50px;
+    text-shadow: 2px 2px 4px #0a0a0a;
+}
+h3{
+    color:goldenrod;
+    font-size: 30px;
+    font-style: oblique;
+    text-shadow: 1px 1px 0 #3b2f00,
+    2px 2px 3px #000;
+}
+.logo{
+    position: absolute;
+    width:150px;
+    height:150px;
+    border-radius: 50%;
+    background-color: rgb(9, 9, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:3px solid #c9a227;
+    left:500px;
+    bottom: 150px; 
+    z-index: 1; 
+}
+.images{
+    width:650px;
+    height:450px;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    position:absolute;
+    bottom:200px;
+    left:600px;
+    top:100px;
+    overflow: hidden;
+}
+.img1{
+    width:100%;
+    height:100%;
+    object-fit: cover;
+}
+.product{
+    background-color: #0a304b;
+}
+.pro{
+    display: flex;
+    justify-content:space-around;
+    margin-top:10px;
+
+}
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 250px;
+}
+.title1 h2{
+     color:#c9a227;
+     font-size: 30px;
+     width:400px;
+     text-shadow: 2px 2px 2px #0a0a0a;
+}
+.select{
+    margin-left:150px;
+}
+
+.items{
+    width:200px;
+    height:300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(12, 68, 91);
+    flex-direction: column;
+    margin-top: 20px;
+    border-radius: 30%;
+    border-style: none; 
+}
+.items:hover{
+    box-shadow: 5px 3px 3px 3px rgb(19, 95, 154);
+    width:205px;
+    height:305px;
+}
+.info h3{
+    color:goldenrod;
+    font-size: 20px;
+     font-style: oblique;
+    text-shadow: 1px 1px 0 #3b2f00,
+    2px 2px 3px #000;
+}
+.info h4{
+    font-size: 15px;
+    color:#d6c692;
+    text-shadow: 1px 1px 0 #3b2f00;
+}
+.img{
+    width:100px;
+    height:250px;
+    display: flex;
+    border-radius:45%;
+    overflow:hidden;
+}
+.img2{
+    width:100%;
+    height:100%;
+    object-fit: contain;
+}
+
+.contain{
+    display: flex;
+    justify-content:space-around;
+}
+.info2{
+    width:400px;
+    height:300px;
+    background-color:rgb(12, 68, 91);
+    border-radius: 20%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 10px;
+    border:3px solid rgb(25, 150, 184)
+}
+.info2:hover{
+    box-shadow: 5px 5px 3px 3px rgb(10, 85, 135);
+    width:405px;
+    height:305px;
+}
+.info2 h3{
+    color:rgb(224, 225, 165);
+    text-shadow: 2px 2px 2px rgb(9, 9, 53);
+    width:250px;
+    font-size: 20px;
+}
+.info2 h4{
+    color:#c9a227;
+    font-style: oblique;
+    font-size:20px;
+}
+.foot{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
